@@ -25,6 +25,18 @@ git init
     git commit -m "<message>"
 ```
 
+* To view git commits
+
+```
+    git log
+```
+
+* To view git commits in one line
+
+```
+    git log --oneline
+```
+
 
 --------- master
        
