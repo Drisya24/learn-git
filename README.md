@@ -13,7 +13,17 @@ git init
 ```
     git status
 ```
+* To add a file to the stage for committing use 
 
+```
+    git add <filename>
+```
+
+* To commit a file: it means to keep record of file changes
+
+```
+    git commit -m "<message>"
+```
 
 
 --------- master
