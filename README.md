@@ -37,6 +37,32 @@ git commit -m "<message>"
     git log --oneline
 ```
 
+* To add a remote repository like github
+
+```
+git remote add <name> <url>
+```
+example: git remote add origin https://github.com/Drisya24/learn-git.git
+
+* To view the url of the remote repository.
+
+```
+git remote show <name>
+```
+Example: git remote show origin
+
+* To push the changes to the remote repository
+
+```
+git push origin <branch>
+```
+But for first push of a branch use
+
+```
+git push -u origin <branch>
+``` 
+
+
 
 
 --------- master
