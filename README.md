@@ -62,6 +62,32 @@ But for first push of a branch use
 git push -u origin <branch>
 ``` 
 
+* If already pushed with `-u` then next time onwards use 
+
+```
+git push
+```
+
+* To create a branch
+
+```
+git branch <branch_name>
+```
+
+* To checkout/goto a branch 
+
+```
+git checkout <branch_name>
+```
+
+* To show current branch
+
+```
+git status
+```
+```
+git branch
+```
 
 
 
