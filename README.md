@@ -90,3 +90,28 @@ git branch
 ```
 
 
+## How to resolve git conflict ?
+----------------------------
+
+Git conflict occurs when both  remote (github) and local make changes in the same file. 
+Best practice to avoid conflict is to always pull the  branch & always push your branch to the remote repo.
+
+### Solve
+* if conflict occurs there will be 3 new lines which help us to distinguish between local and remote file changes. For example
+
+```
+<<<<< HEAD
+<mostly your local file code>
+========
+<mostly the remote files>
+>>>>>>>>
+```
+* Decide which code changes you want and keep it and delete every other lines including <<<, ==== and >>>>>>
+* Then `git add <filename>`
+* Then `git commit `
+* press `shift + ;`
+* type `wq`
+* press `enter`
+* Changes will be committed  in the local repo
+*  Push changes to remote : `git push`
+*  Done.
